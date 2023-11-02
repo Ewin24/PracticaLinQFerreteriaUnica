@@ -1,0 +1,77 @@
+{
+    "productos": [
+        {
+            "id": 1,
+            "nombre": "Martillo",
+            "precioUnit": 10.0,
+            "cantidad": 50,
+            "stockMin": 10,
+            "stockMax": 100
+        },
+        {
+            "id": 2,
+            "nombre": "Destornillador",
+            "precioUnit": 5.0,
+            "cantidad": 30,
+            "stockMin": 5,
+            "stockMax": 50
+        },
+        {
+            "id": 3,
+            "nombre": "Sierra",
+            "precioUnit": 15.0,
+            "cantidad": 20,
+            "stockMin": 5,
+            "stockMax": 30
+        }
+    ],
+    "clientes": [
+        {
+            "id": 1,
+            "nombre": "Juan Pérez",
+            "email": "juan.perez@example.com"
+        },
+        {
+            "id": 2,
+            "nombre": "María González",
+            "email": "maria.gonzalez@example.com"
+        }
+    ],
+    "facturas": [
+        {
+            "nroFact": 101,
+            "fecha": "2023-01-15",
+            "idCliente": 1,
+            "totalFactura": 75.0
+        },
+        {
+            "nroFact": 102,
+            "fecha": "2023-01-20",
+            "idCliente": 2,
+            "totalFactura": 60.0
+        }
+    ],
+    "detalleFact": [
+        {
+            "id": 1,
+            "nroFact": 101,
+            "idProd": 1,
+            "cantidad": 5,
+            "valor": 50.0
+        },
+        {
+            "id": 2,
+            "nroFact": 101,
+            "idProd": 2,
+            "cantidad": 10,
+            "valor": 50.0
+        },
+        {
+            "id": 3,
+            "nroFact": 102,
+            "idProd": 1,
+            "cantidad": 3,
+            "valor": 30.0
+        }
+    ]
+}
