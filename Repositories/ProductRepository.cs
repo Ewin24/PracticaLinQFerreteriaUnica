@@ -1,7 +1,9 @@
 using System;
 using System.Collections.Generic;
 using System.Linq;
+using System.Net.Http.Json;
 using System.Text.Json;
+using System.Text.Json.Serialization;
 using System.Threading.Tasks;
 using PracticaLinQ.Interfaces;
 using PracticaLinQ.Models;
@@ -10,18 +12,15 @@ namespace PracticaLinQ.Repositories
 {
     public class ProductRepository : IProductRepository
     {
+        Data DataObj;
         private List<Product> Products;
-
-        public ProductRepository(string jsonFilePath)
-        {
-            // Cargar datos desde el archivo JSON al constructor del repositorio
-            string jsonData = File.ReadAllText(jsonFilePath);
-            Products = JsonSerializer.Deserialize<List<Product>>(jsonData);
-        }
 
         public List<Product> ObtenerTodos()
         {
-            return Products;
+            DataObj = new("");
+            Products = DataObj.ObtenerLista<Product>("products");
+            List<Product> ProductsObj = Products.ToList();
+            return ProductsObj;
         }
 
         public Product ObtenerPorId(int id)

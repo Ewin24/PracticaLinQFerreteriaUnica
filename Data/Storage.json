@@ -1,77 +1,77 @@
 {
-    "productos": [
+    "products": [
         {
             "id": 1,
-            "nombre": "Martillo",
-            "precioUnit": 10.0,
-            "cantidad": 50,
-            "stockMin": 10,
-            "stockMax": 100
+            "name": "Hammer",
+            "unitPrice": 10.0,
+            "quantity": 50,
+            "minStock": 10,
+            "maxStock": 100
         },
         {
             "id": 2,
-            "nombre": "Destornillador",
-            "precioUnit": 5.0,
-            "cantidad": 30,
-            "stockMin": 5,
-            "stockMax": 50
+            "name": "Screwdriver",
+            "unitPrice": 5.0,
+            "quantity": 30,
+            "minStock": 5,
+            "maxStock": 50
         },
         {
             "id": 3,
-            "nombre": "Sierra",
-            "precioUnit": 15.0,
-            "cantidad": 20,
-            "stockMin": 5,
-            "stockMax": 30
+            "name": "Saw",
+            "unitPrice": 15.0,
+            "quantity": 20,
+            "minStock": 5,
+            "maxStock": 30
         }
     ],
-    "clientes": [
+    "clients": [
         {
             "id": 1,
-            "nombre": "Juan Pérez",
+            "name": "Juan Pérez",
             "email": "juan.perez@example.com"
         },
         {
             "id": 2,
-            "nombre": "María González",
+            "name": "María González",
             "email": "maria.gonzalez@example.com"
         }
     ],
-    "facturas": [
+    "invoices": [
         {
-            "nroFact": 101,
-            "fecha": "2023-01-15",
-            "idCliente": 1,
-            "totalFactura": 75.0
+            "invoiceNumber": 101,
+            "date": "2023-01-15",
+            "clientId": 1,
+            "totalAmount": 75.0
         },
         {
-            "nroFact": 102,
-            "fecha": "2023-01-20",
-            "idCliente": 2,
-            "totalFactura": 60.0
+            "invoiceNumber": 102,
+            "date": "2023-01-20",
+            "clientId": 2,
+            "totalAmount": 60.0
         }
     ],
-    "detalleFact": [
+    "invoiceDetails": [
         {
             "id": 1,
-            "nroFact": 101,
-            "idProd": 1,
-            "cantidad": 5,
-            "valor": 50.0
+            "invoiceNumber": 101,
+            "productId": 1,
+            "quantity": 5,
+            "value": 50.0
         },
         {
             "id": 2,
-            "nroFact": 101,
-            "idProd": 2,
-            "cantidad": 10,
-            "valor": 50.0
+            "invoiceNumber": 101,
+            "productId": 2,
+            "quantity": 10,
+            "value": 50.0
         },
         {
             "id": 3,
-            "nroFact": 102,
-            "idProd": 1,
-            "cantidad": 3,
-            "valor": 30.0
+            "invoiceNumber": 102,
+            "productId": 1,
+            "quantity": 3,
+            "value": 30.0
         }
     ]
 }

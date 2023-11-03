@@ -5,16 +5,11 @@ using System.Threading.Tasks;
 
 namespace PracticaLinQ.Views
 {
-    public  class InvoiceView
+    public class InvoiceDetailView
     {
-        public static void ReceiptsJanuary()
+        public static void GetProductsFromReceipt()
         {
             throw new NotImplementedException();
-        }
-
-        public void MyMethod(string parameter)
-        {
-            Console.WriteLine("ajajjs");
         }
     }
 }
