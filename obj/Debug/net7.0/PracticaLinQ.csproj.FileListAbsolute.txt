@@ -12,3 +12,6 @@ C:\Users\dell\Desktop\campus\SKILL\NetCore\PracticaLinQ\obj\Debug\net7.0\refint\
 C:\Users\dell\Desktop\campus\SKILL\NetCore\PracticaLinQ\obj\Debug\net7.0\PracticaLinQ.pdb
 C:\Users\dell\Desktop\campus\SKILL\NetCore\PracticaLinQ\obj\Debug\net7.0\PracticaLinQ.genruntimeconfig.cache
 C:\Users\dell\Desktop\campus\SKILL\NetCore\PracticaLinQ\obj\Debug\net7.0\ref\PracticaLinQ.dll
+C:\Users\dell\Desktop\campus\SKILL\NetCore\PracticaLinQ\bin\Debug\net7.0\ConsoleTables.dll
+C:\Users\dell\Desktop\campus\SKILL\NetCore\PracticaLinQ\obj\Debug\net7.0\PracticaLinQ.csproj.AssemblyReference.cache
+C:\Users\dell\Desktop\campus\SKILL\NetCore\PracticaLinQ\obj\Debug\net7.0\PracticaLinQ.csproj.CopyComplete

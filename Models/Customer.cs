@@ -8,8 +8,9 @@ namespace PracticaLinQ.Models
     public class Customer : BaseModel
     {
 
-        private string Name { get; set; }
-        private string Email { get; set; }
+        public int Id { get; set; }
+        public string Name { get; set; }
+        public string Email { get; set; }
 
     }
 }

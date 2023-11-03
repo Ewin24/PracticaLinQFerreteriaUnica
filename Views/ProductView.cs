@@ -13,7 +13,11 @@ namespace PracticaLinQ.Views
         {
             ProductRepository productRepository = new();
             var products = productRepository.ObtenerTodos();
-            products.ToString();
+            Console.WriteLine("sirve");
+            foreach (var item in products)
+            {
+                Console.WriteLine(item.Id);
+            }
         }
 
         public static void ListEndProducts()

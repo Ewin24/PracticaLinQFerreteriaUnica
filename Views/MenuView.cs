@@ -2,6 +2,7 @@ using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
+using PracticaLinQ.Models;
 
 namespace PracticaLinQ.Views
 {
@@ -9,7 +10,9 @@ namespace PracticaLinQ.Views
     {
         public static void MainMenu()
         {
+            Data funciones = new();
             bool bandera = false;
+
             while (bandera == false)
             {
                 Console.Clear();
@@ -32,41 +35,41 @@ namespace PracticaLinQ.Views
                 {
                     case "1":
                         Console.Clear();
-                        ProductView.ListProducts();
+                        funciones.ListProducts();
                         Console.ReadKey();
                         break;
                     case "2":
                         Console.Clear();
-                        ProductView.ListEndProducts();
+                        funciones.ListEndProducts();
                         Console.ReadKey();
                         break;
                     case "3":
                         Console.Clear();
-                        ProductView.ListProductsMustBuy();
+                        funciones.ListProductsMustBuy();
                         Console.ReadKey();
                         break;
                     case "4":
                         Console.Clear();
-                        InvoiceView.ReceiptsJanuary();
+                        funciones.ReceiptsJanuary();
                         Console.ReadKey();
                         break;
                     case "5":
                         Console.Clear();
-                        InvoiceDetailView.GetProductsFromReceipt();
+                        funciones.GetProductsFromReceipt();
                         Console.ReadKey();
                         break;
                     case "6":
                         Console.Clear();
-                        ProductView.CalculateTotalPriceStock();
+                        funciones.CalculateTotalPriceStock();
                         Console.ReadKey();
                         break;
                     case "7":
                         Console.Clear();
-                        Console.WriteLine("Gracias por usar nuestro Servicio");
+                        Console.WriteLine("Thanks for using our service");
                         bandera = true;
                         break;
                     default:
-                        Console.WriteLine("No haz seleccionado ninguna de las opciones.");
+                        Console.WriteLine("You haven't choose any of the options.");
                         Console.WriteLine($"Vemos mi so:)");
                         bandera = true;
                         break;

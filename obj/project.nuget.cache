@@ -1,8 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "NPNpi4Iux3KRxiCO8wEDMX0jOcdhSBv6eGQEGxfs7c4e4SClv1E7SZvPKxok2FFSxAx1QTDLlJA7eXrhWXi/ng==",
+  "dgSpecHash": "AYz83sgZQuD1qBLTOvGppNyQqn+Te9HOzpUoAL3pP0Gi0IUjEfZ0OWgvYFl/trfhYGtOWfeOjUMPH3iyGb5rKw==",
   "success": true,
   "projectFilePath": "C:\\Users\\dell\\Desktop\\campus\\SKILL\\NetCore\\PracticaLinQ\\PracticaLinQ.csproj",
-  "expectedPackageFiles": [],
+  "expectedPackageFiles": [
+    "C:\\Users\\dell\\.nuget\\packages\\consoletables\\2.6.1\\consoletables.2.6.1.nupkg.sha512"
+  ],
   "logs": []
 }

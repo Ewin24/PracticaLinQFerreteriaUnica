@@ -7,10 +7,14 @@ namespace PracticaLinQ.Models
 {
     public class Product : BaseModel
     {
-        private string Name { get; set; }
-        private float Price { get; set; }
-        private int Quantity { get; set; }
-        private int StockMin { get; set; }
-        private int StockMax { get; set; }
+        public int Id { get; set; }
+        public string Name { get; set; }
+        public int UnitPrice { get; set; }
+        public int Cantity { get; set; }
+        public int MinStock { get; set; }
+        public int MaxStock { get; set; }
+
+
     }
+
 }

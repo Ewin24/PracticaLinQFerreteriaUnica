@@ -8,10 +8,11 @@ namespace PracticaLinQ.Models
     public class Invoice : BaseModel
     {
 
-        private DateTime Date { get; set; }
-        private int IdCustomer { get; set; }
-        private Customer Customer { get; set; }
-        private float Total { get; set; }
+        public int NumReceipt { get; set; }
+        public DateOnly Date { get; set; }
+        public int ClientId { get; set; }
+        public int TotalReceipt { get; set; }
+        public List<int> ListProducts { get; set; }
 
     }
 }

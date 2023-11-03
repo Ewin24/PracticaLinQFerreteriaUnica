@@ -17,10 +17,13 @@ namespace PracticaLinQ.Repositories
 
         public List<Product> ObtenerTodos()
         {
-            DataObj = new("");
-            Products = DataObj.ObtenerLista<Product>("products");
-            List<Product> ProductsObj = Products.ToList();
-            return ProductsObj;
+            // DataObj = new("");
+            // Products = DataObj.ObtenerLista<Product>("products");
+            foreach (Product item in Products)
+            {
+                Console.WriteLine(item.Id);
+            }
+            return Products;
         }
 
         public Product ObtenerPorId(int id)

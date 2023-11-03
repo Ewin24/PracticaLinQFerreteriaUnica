@@ -1,77 +1,77 @@
 {
-    "products": [
+    "Products": [
         {
-            "id": 1,
-            "name": "Hammer",
-            "unitPrice": 10.0,
-            "quantity": 50,
-            "minStock": 10,
-            "maxStock": 100
+            "Id": 1,
+            "Name": "Hammer",
+            "Price": 10.0,
+            "Quantity": 50,
+            "StockMin": 10,
+            "StockMax": 100
         },
         {
-            "id": 2,
-            "name": "Screwdriver",
-            "unitPrice": 5.0,
-            "quantity": 30,
-            "minStock": 5,
-            "maxStock": 50
+            "Id": 2,
+            "Name": "Screwdriver",
+            "Price": 5.0,
+            "Quantity": 30,
+            "StockMin": 5,
+            "StockMax": 50
         },
         {
-            "id": 3,
-            "name": "Saw",
-            "unitPrice": 15.0,
-            "quantity": 20,
-            "minStock": 5,
-            "maxStock": 30
+            "Id": 3,
+            "Name": "Saw",
+            "Price": 15.0,
+            "Quantity": 20,
+            "StockMin": 5,
+            "StockMax": 30
         }
     ],
-    "clients": [
+    "Customers": [
         {
-            "id": 1,
-            "name": "Juan Pérez",
-            "email": "juan.perez@example.com"
+            "Id": 1,
+            "Name": "Juan Pérez",
+            "Email": "juan.perez@example.com"
         },
         {
-            "id": 2,
-            "name": "María González",
-            "email": "maria.gonzalez@example.com"
+            "Id": 2,
+            "Name": "María González",
+            "Email": "maria.gonzalez@example.com"
         }
     ],
-    "invoices": [
+    "Invoices": [
         {
-            "invoiceNumber": 101,
-            "date": "2023-01-15",
-            "clientId": 1,
-            "totalAmount": 75.0
+            "Id": "101",
+            "Date": "2023-01-15",
+            "IdCustomer": 1,
+            "Total": 75.0
         },
         {
-            "invoiceNumber": 102,
-            "date": "2023-01-20",
-            "clientId": 2,
-            "totalAmount": 60.0
+            "Id": "102",
+            "Date": "2023-01-20",
+            "IdCustomer": 2,
+            "Total": 60.0
         }
     ],
-    "invoiceDetails": [
+    "InvoiceDetails": [
         {
-            "id": 1,
-            "invoiceNumber": 101,
-            "productId": 1,
-            "quantity": 5,
-            "value": 50.0
+            "Id": 1,
+            "NumInvoice": "101",
+            "IdProduct": 1,
+            "Quantity": 5,
+            "Value": 50.0
         },
         {
-            "id": 2,
-            "invoiceNumber": 101,
-            "productId": 2,
-            "quantity": 10,
-            "value": 50.0
+            "Id": 2,
+            "NumInvoice": "101",
+            "IdProduct": 2,
+            "Quantity": 10,
+            "Value": 50.0
         },
         {
-            "id": 3,
-            "invoiceNumber": 102,
-            "productId": 1,
-            "quantity": 3,
-            "value": 30.0
+            "Id": 3,
+            "NumInvoice": "102",
+            "IdProduct": 1,
+            "Quantity": 3,
+            "Value": 30.0
         }
     ]
 }
