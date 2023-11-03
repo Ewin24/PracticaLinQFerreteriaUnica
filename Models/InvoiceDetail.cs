@@ -5,7 +5,7 @@ using System.Threading.Tasks;
 
 namespace PracticaLinQ.Models
 {
-    public class InvoiceDetails : BaseModel
+    public class InvoiceDetail : BaseModel
     {
         private string NumInvoice { get; set; }
         private int IdProduct { get; set; }

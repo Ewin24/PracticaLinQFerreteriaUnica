@@ -29,13 +29,13 @@ namespace PracticaLinQ.Repositories
             return Customers.FirstOrDefault(p => p.Id == id);
         }
 
-        public void AgregarT(Customer Customer)
+        public void AgregarEntidad(Customer Customer)
         {
             Customer.Id = Customers.Max(p => p.Id) + 1; // Simulación de generación de ID
             Customers.Add(Customer);
         }
 
-        public void ActualizarT(Customer Customer)
+        public void ActualizarEntidad(Customer Customer)
         {
             var TExistente = Customers.FirstOrDefault(p => p.Id == Customer.Id);
             if (TExistente != null)
@@ -43,7 +43,7 @@ namespace PracticaLinQ.Repositories
             }
         }
 
-        public void EliminarT(int id)
+        public void EliminarEntidad(int id)
         {
             var TExistente = Customers.FirstOrDefault(p => p.Id == id);
             if (TExistente != null)

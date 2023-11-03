@@ -13,10 +13,10 @@ namespace PracticaLinQ.Interfaces
 
         public Entidad ObtenerPorId(int id);
 
-        public void AgregarT(Entidad Entidad);
+        public void AgregarEntidad(Entidad Entidad);
 
-        public void ActualizarT(Entidad entidad);
+        public void ActualizarEntidad(Entidad entidad);
 
-        public void EliminarT(int id);
+        public void EliminarEntidad(int id);
     }
 }

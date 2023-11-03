@@ -7,6 +7,6 @@ namespace PracticaLinQ.Views
 {
     public class CustomerView
     {
-        
+
     }
 }
